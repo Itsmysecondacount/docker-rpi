@@ -1,8 +1,8 @@
 version: '3.7'
 services:
   server:
-    image: rpicontrol
-    build: ./rpicontrol
+    image: rpiserver2
+    build: ./rpiserver2
     ports:
       - 80:8080
     devices:
