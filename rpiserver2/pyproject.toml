@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rpiserver2"
+version = "0.1.0"
+description = ""
+authors = ["Jorge Castillo <jorge.castillo.torres.a@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {version = "^0.99.1", extras = ["all"]}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
