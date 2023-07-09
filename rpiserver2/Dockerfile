@@ -1,6 +1,6 @@
 FROM arm32v7/python:3.7-slim-bullseye
 RUN apt-get update \
-&& apt-get install build-essential -y \
+&& apt-get install build-essential libffi-dev -y \
 && pip install poetry
 
 COPY ./pyproject.toml /app/
